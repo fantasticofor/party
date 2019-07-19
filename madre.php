@@ -40,7 +40,7 @@
           <input type="text" class="form-control" id="inputCognome" placeholder="Cognome da Nubile (max 30 caratteri)" v-model="madre.inputCognome">
         </div>
         <div class="form-group col-md-4">
-          <label for="inputCognomeAcq">Cognome acquisito</label>
+          <label for="inputCognomeAcq">Cognome Acquisito</label>
           <input type="text" class="form-control" id="inputCognomeAcq" placeholder="Cognome acquisito (max 20 caratteri)" v-model="madre.inputCognomeAcq">
         </div>
       </div>
@@ -69,7 +69,7 @@
           </select>
         </div>
       <div class="form-group col-md-3">
-        <label for="inputCittadinanza">Nazione cittadinanza</label>
+        <label for="inputCittadinanza">Cittadinanza</label>
         <select class="form-control" id="inputCittadinanza" v-model="madre.inputCittadinanza">
             <?php include('inc_option_nazione.php') ?>
         </select>
